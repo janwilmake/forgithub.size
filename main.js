@@ -2,7 +2,6 @@
  * Cloudflare Worker to redirect requests from size.forgithub.com to cache.zipobject.com
  * While preserving path parameters and authorization.
  */
-
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
