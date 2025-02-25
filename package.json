@@ -1,0 +1,9 @@
+{
+  "name": "size-forgithub-redirect",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to redirect from size.forgithub.com to cache.zipobject.com",
+  "main": "main.ts",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0"
+  }
+}

@@ -1,0 +1,8 @@
+name = "forgithub_size"
+main = "main.ts"
+compatibility_date = "2025-02-25"
+
+# Configure routes when you set up custom domains via the dashboard
+routes = [
+  { pattern = "size.forgithub.com", custom_domain = true }
+]
