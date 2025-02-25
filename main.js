@@ -3,12 +3,8 @@
  * While preserving path parameters and authorization.
  */
 
-export interface Env {
-  // Define any environment variables here (if needed)
-}
-
 export default {
-  async fetch(request: Request, env: Env, ctx: any): Promise<Response> {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
     // Only process requests for size.forgithub.com
